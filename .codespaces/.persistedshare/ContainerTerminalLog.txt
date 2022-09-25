@@ -1,0 +1,4 @@
+[[1m[38;2;99;143;79m45 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.70.0.
+[[1m[38;2;99;143;79m259 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.70.0.
+[[1m[38;2;99;143;79m13228 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.70.0.
+[[1m[38;2;99;143;79m13719 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.70.0.

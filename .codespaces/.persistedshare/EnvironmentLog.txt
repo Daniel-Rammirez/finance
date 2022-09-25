@@ -1,0 +1,300 @@
+[2022-09-25T15:23:14.207Z] @microsoft/vscode-dev-containers-cli 0.70.0.
+[2022-09-25T15:23:14.207Z] Start: Resolving Remote
+[2022-09-25T15:23:14.209Z] Start: Run: docker ps -q -a --filter label=Type=codespaces
+[2022-09-25T15:23:14.250Z] Stop (41 ms): Run: docker ps -q -a --filter label=Type=codespaces
+[2022-09-25T15:23:14.251Z] Start: Run: docker inspect --type container ebe07e94a99b
+[2022-09-25T15:23:14.288Z] Stop (37 ms): Run: docker inspect --type container ebe07e94a99b
+[2022-09-25T15:23:14.289Z] Start: Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /tmp --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --workspace-folder /var/lib/docker/codespacemount/workspace/54014462 --id-label Type=codespaces --log-level info --log-format json --config /var/lib/docker/codespacemount/workspace/54014462/.devcontainer.json --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --expect-existing-container --mount type=bind,source=/tmp/vsch-root,target=/vscode --skip-post-create --update-remote-user-uid-default never --mount-workspace-git-root false
+[2022-09-25T15:23:14.401Z] @microsoft/vscode-dev-containers-cli 0.70.0.
+[2022-09-25T15:23:14.401Z] Start: Run: docker buildx version
+[2022-09-25T15:23:14.499Z] Stop (98 ms): Run: docker buildx version
+[2022-09-25T15:23:14.500Z] Start: Resolving Remote
+[2022-09-25T15:23:14.504Z] Start: Run: docker ps -q -a --filter label=Type=codespaces
+[2022-09-25T15:23:14.540Z] Stop (36 ms): Run: docker ps -q -a --filter label=Type=codespaces
+[2022-09-25T15:23:14.541Z] Start: Run: docker inspect --type container ebe07e94a99b
+[2022-09-25T15:23:14.577Z] Stop (36 ms): Run: docker inspect --type container ebe07e94a99b
+[2022-09-25T15:23:14.577Z] Start: Inspecting container
+[2022-09-25T15:23:14.578Z] Start: Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.613Z] Stop (35 ms): Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.613Z] Stop (36 ms): Inspecting container
+[2022-09-25T15:23:14.614Z] Start: Run in container: /bin/sh
+[2022-09-25T15:23:14.619Z] Start: Run in container: uname -m
+[2022-09-25T15:23:14.709Z] x86_64
+[2022-09-25T15:23:14.709Z] 
+[2022-09-25T15:23:14.709Z] Stop (90 ms): Run in container: uname -m
+[2022-09-25T15:23:14.710Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2022-09-25T15:23:14.714Z] PRETTY_NAME="Ubuntu 22.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.1 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+[2022-09-25T15:23:14.714Z] 
+[2022-09-25T15:23:14.714Z] Stop (4 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2022-09-25T15:23:14.714Z] Start: Run in container: cat /etc/passwd
+[2022-09-25T15:23:14.717Z] Stop (3 ms): Run in container: cat /etc/passwd
+[2022-09-25T15:23:14.718Z] Start: Run in container: test -f '/var/vscode-remote/.patchEtcEnvironmentMarker'
+[2022-09-25T15:23:14.719Z] 
+[2022-09-25T15:23:14.719Z] 
+[2022-09-25T15:23:14.719Z] Stop (1 ms): Run in container: test -f '/var/vscode-remote/.patchEtcEnvironmentMarker'
+[2022-09-25T15:23:14.719Z] Start: Run in container: test -f '/var/vscode-remote/.patchEtcProfileMarker'
+[2022-09-25T15:23:14.720Z] 
+[2022-09-25T15:23:14.720Z] 
+[2022-09-25T15:23:14.720Z] Stop (1 ms): Run in container: test -f '/var/vscode-remote/.patchEtcProfileMarker'
+[2022-09-25T15:23:14.721Z] Stop (221 ms): Resolving Remote
+[2022-09-25T15:23:14.729Z] Stop (440 ms): Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js up --user-data-folder /tmp --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --workspace-folder /var/lib/docker/codespacemount/workspace/54014462 --id-label Type=codespaces --log-level info --log-format json --config /var/lib/docker/codespacemount/workspace/54014462/.devcontainer.json --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --expect-existing-container --mount type=bind,source=/tmp/vsch-root,target=/vscode --skip-post-create --update-remote-user-uid-default never --mount-workspace-git-root false
+[2022-09-25T15:23:14.729Z] Start: Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.771Z] Stop (42 ms): Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.772Z] Start: Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /var/lib/docker/codespacemount/workspace/54014462 --container-id ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7 --log-level info --log-format json --config /var/lib/docker/codespacemount/workspace/54014462/.devcontainer.json --override-config /root/.codespaces/shared/merged_devcontainer.json --mount-workspace-git-root false
+[2022-09-25T15:23:14.883Z] @microsoft/vscode-dev-containers-cli 0.70.0.
+[2022-09-25T15:23:14.883Z] Start: Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.926Z] Stop (43 ms): Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.931Z] Stop (159 ms): Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js read-configuration --workspace-folder /var/lib/docker/codespacemount/workspace/54014462 --container-id ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7 --log-level info --log-format json --config /var/lib/docker/codespacemount/workspace/54014462/.devcontainer.json --override-config /root/.codespaces/shared/merged_devcontainer.json --mount-workspace-git-root false
+[2022-09-25T15:23:14.931Z] Start: Inspecting container
+[2022-09-25T15:23:14.931Z] Start: Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.970Z] Stop (39 ms): Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:14.970Z] Stop (39 ms): Inspecting container
+[2022-09-25T15:23:14.971Z] Start: Run in container: /bin/sh
+[2022-09-25T15:23:14.975Z] Start: Run in container: uname -m
+[2022-09-25T15:23:15.066Z] x86_64
+[2022-09-25T15:23:15.066Z] 
+[2022-09-25T15:23:15.066Z] Stop (91 ms): Run in container: uname -m
+[2022-09-25T15:23:15.066Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2022-09-25T15:23:15.069Z] PRETTY_NAME="Ubuntu 22.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.1 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+[2022-09-25T15:23:15.069Z] 
+[2022-09-25T15:23:15.069Z] Stop (3 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2022-09-25T15:23:15.069Z] Start: Run in container: cat /etc/passwd
+[2022-09-25T15:23:15.071Z] Stop (2 ms): Run in container: cat /etc/passwd
+[2022-09-25T15:23:15.073Z] Start: Run in container: test -d /home/ubuntu/.vscode-remote
+[2022-09-25T15:23:15.074Z] 
+[2022-09-25T15:23:15.074Z] 
+[2022-09-25T15:23:15.074Z] Stop (1 ms): Run in container: test -d /home/ubuntu/.vscode-remote
+[2022-09-25T15:23:15.074Z] Start: Run in container: test ! -f '/home/ubuntu/.vscode-remote/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && { > '/home/ubuntu/.vscode-remote/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2022-09-25T15:23:15.076Z] 
+[2022-09-25T15:23:15.076Z] 
+[2022-09-25T15:23:15.076Z] Exit code 1
+[2022-09-25T15:23:15.076Z] Stop (2 ms): Run in container: test ! -f '/home/ubuntu/.vscode-remote/data/Machine/.writeMachineSettingsMarker' && set -o noclobber && mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && { > '/home/ubuntu/.vscode-remote/data/Machine/.writeMachineSettingsMarker' ; } 2> /dev/null
+[2022-09-25T15:23:15.076Z] Start: Run in container: cat /home/ubuntu/.vscode-remote/data/Machine/settings.json
+[2022-09-25T15:23:15.078Z] {
+	"C_Cpp.autocomplete": "Disabled",
+	"C_Cpp.codeFolding": "Disabled",
+	"C_Cpp.debugShortcut": false,
+	"C_Cpp.dimInactiveRegions": false,
+	"C_Cpp.enhancedColorization": "Enabled",
+	"C_Cpp.errorSquiggles": "Disabled",
+	"breadcrumbs.enabled": false,
+	"editor.autoClosingQuotes": "never",
+	"editor.colorDecorators": false,
+	"editor.emptySelectionClipboard": false,
+	"editor.folding": false,
+	"editor.foldingHighlight": false,
+	"editor.guides.indentation": false,
+	"editor.hover.enabled": false,
+	"editor.lightbulb.enabled": false,
+	"editor.matchBrackets": "never",
+	"editor.minimap.enabled": false,
+	"editor.occurrencesHighlight": false,
+	"editor.parameterHints.enabled": false,
+	"editor.quickSuggestions": {
+		"comments": "off",
+		"other": "off",
+		"strings": "off"
+	},
+	"editor.renderWhitespace": "selection",
+	"editor.selectionHighlight": false,
+	"editor.semanticTokenColorCustomizations": {
+		"[GitHub Dark Default]": {
+			"rules": {
+				"type": "#FF7E76"
+			}
+		},
+		"[GitHub Light Default]": {
+			"rules": {
+				"type": "#D2343F"
+			}
+		}
+	},
+	"editor.suggestOnTriggerCharacters": false,
+	"explorer.compactFolders": false,
+	"extension-uninstaller.uninstall": [
+		"github.copilot",
+		"github.copilot-nightly",
+		"ms-toolsai.jupyter",
+		"tabnine.tabnine-vscode"
+	],
+	"extensions.ignoreRecommendations": true,
+	"files.autoSave": "afterDelay",
+	"files.exclude": {
+		"**/.*": true
+	},
+	"files.trimTrailingWhitespace": true,
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/*/**": true
+	},
+	"git.autofetch": true,
+	"git.decorations.enabled": false,
+	"git.terminalAuthentication": true,
+	"gitdoc.autoPull": "off",
+	"gitdoc.commitMessageFormat": "ccc, LLL d, kkkk, h:mm a ZZ",
+	"gitdoc.commitValidationLevel": "none",
+	"gitdoc.enabled": true,
+	"gitdoc.pullOnOpen": false,
+	"github.gitAuthentication": true,
+	"html.suggest.html5": false,
+	"java.configuration.runtimes": [
+		{
+			"default": true,
+			"name": "JavaSE-18",
+			"path": "/opt/jdk-18.0.2.1"
+		}
+	],
+	"java.server.launchMode": "Standard",
+	"javascript.suggest.enabled": false,
+	"javascript.validate.enable": false,
+	"problems.decorations.enabled": false,
+	"remote.otherPortsAttributes": {
+		"onAutoForward": "silent"
+	},
+	"scm.countBadge": "off",
+	"terminal.integrated.commandsToSkipShell": [
+		"workbench.action.toggleSidebarVisibility"
+	],
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"terminal.integrated.persistentSessionReviveProcess": "never",
+	"terminal.integrated.profiles.linux": {
+		"JavaScript Debug Terminal": null,
+		"bash": {
+			"args": [
+				"--login"
+			],
+			"icon": "terminal",
+			"path": "bash"
+		}
+	},
+	"terminal.integrated.sendKeybindingsToShell": true,
+	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
+	"terminal.integrated.shellIntegration.enabled": true,
+	"terminal.integrated.tabs.description": "${task}${separator}${local}",
+	"terminal.integrated.tabs.showActiveTerminal": "never",
+	"window.autoDetectColorScheme": true,
+	"window.commandCenter": false,
+	"workbench.colorCustomizations": {
+		"[GitHub Dark Default]": {
+			"activityBar.background": "#000",
+			"editor.background": "#000",
+			"editor.lineHighlightBackground": "#0000",
+			"editor.lineHighlightBorder": "#0000",
+			"editorWhitespace.foreground": "#59A5FC",
+			"panel.background": "#000",
+			"sideBar.background": "#000",
+			"terminal.background": "#000",
+			"terminal.foreground": "#fff"
+		},
+		"[GitHub Light Default]": {
+			"activityBar.background": "#fff",
+			"editor.background": "#fff",
+			"editor.lineHighlightBackground": "#fff0",
+			"editor.lineHighlightBorder": "#fff0",
+			"editorWhitespace.foreground": "#1167D7",
+			"panel.background": "#fff",
+			"sideBar.background": "#fff",
+			"terminal.background": "#fff",
+			"terminal.foreground": "#000"
+		},
+		"editor.lineHighlightBorder": "#0000",
+		"editorError.foreground": "#0000",
+		"editorGutter.addedBackground": "#0000",
+		"editorGutter.deletedBackground": "#0000",
+		"editorGutter.modifiedBackground": "#0000",
+		"editorWarning.foreground": "#0000"
+	},
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.untitled.hint": "hidden",
+	"workbench.iconTheme": "vs-minimal",
+	"workbench.preferredDarkColorTheme": "GitHub Dark Default",
+	"workbench.preferredLightColorTheme": "GitHub Light Default",
+	"workbench.startupEditor": "none",
+	"workbench.statusBar.visible": false,
+	"workbench.tips.enabled": false,
+	"workbench.welcomePage.walkthroughs.openOnInstall": false
+}
+[2022-09-25T15:23:15.078Z] 
+[2022-09-25T15:23:15.078Z] Stop (2 ms): Run in container: cat /home/ubuntu/.vscode-remote/data/Machine/settings.json
+[2022-09-25T15:23:15.080Z] userEnvProbe: loginInteractiveShell (default)
+[2022-09-25T15:23:15.081Z] Start: Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js run-user-commands --user-data-folder /tmp --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --workspace-folder /var/lib/docker/codespacemount/workspace/54014462 --container-id ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7 --log-level info --log-format json --config /var/lib/docker/codespacemount/workspace/54014462/.devcontainer.json --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --skip-non-blocking-commands false --prebuild false --stop-for-personalization true --mount-workspace-git-root false
+[2022-09-25T15:23:15.084Z] Stop (877 ms): Resolving Remote
+[2022-09-25T15:23:15.085Z] userEnvProbe shell: /bin/bash
+[2022-09-25T15:23:15.086Z] Start: Run in container: /bin/bash -lic echo -n 664e3ea5657f2788a68ea6a98b9e7efa; cat /proc/self/environ; echo -n 664e3ea5657f2788a68ea6a98b9e7efa
+[2022-09-25T15:23:15.410Z] @microsoft/vscode-dev-containers-cli 0.70.0.
+[2022-09-25T15:23:15.410Z] Start: Run: docker buildx version
+[2022-09-25T15:23:15.513Z] Stop (427 ms): Run in container: /bin/bash -lic echo -n 664e3ea5657f2788a68ea6a98b9e7efa; cat /proc/self/environ; echo -n 664e3ea5657f2788a68ea6a98b9e7efa
+[2022-09-25T15:23:15.515Z] userEnvProbe PATHs:
+Probe:     '/home/ubuntu/.gem/bin:/home/ubuntu/.local/bin:/opt/cs50/bin:/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+Container: '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+[2022-09-25T15:23:15.578Z] Stop (168 ms): Run: docker buildx version
+[2022-09-25T15:23:15.583Z] Start: Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:15.621Z] Stop (38 ms): Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:15.621Z] Start: Inspecting container
+[2022-09-25T15:23:15.622Z] Start: Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:15.656Z] Stop (34 ms): Run: docker inspect --type container ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7
+[2022-09-25T15:23:15.657Z] Stop (36 ms): Inspecting container
+[2022-09-25T15:23:15.658Z] Start: Run in container: /bin/sh
+[2022-09-25T15:23:15.663Z] Start: Run in container: uname -m
+[2022-09-25T15:23:15.757Z] x86_64
+[2022-09-25T15:23:15.757Z] 
+[2022-09-25T15:23:15.757Z] Stop (94 ms): Run in container: uname -m
+[2022-09-25T15:23:15.757Z] Start: Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2022-09-25T15:23:15.760Z] PRETTY_NAME="Ubuntu 22.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.1 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+[2022-09-25T15:23:15.761Z] 
+[2022-09-25T15:23:15.761Z] Stop (4 ms): Run in container: (cat /etc/os-release || cat /usr/lib/os-release) 2>/dev/null
+[2022-09-25T15:23:15.761Z] Start: Run in container: cat /etc/passwd
+[2022-09-25T15:23:15.763Z] Stop (2 ms): Run in container: cat /etc/passwd
+[2022-09-25T15:23:15.764Z] userEnvProbe: loginInteractiveShell (default)
+[2022-09-25T15:23:15.765Z] Start: Run in container: mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && CONTENT="$(cat '/home/ubuntu/.vscode-remote/data/Machine/.onCreateCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2022-09-25T14:48:05.106375981Z}" != '2022-09-25T14:48:05.106375981Z' ] && echo '2022-09-25T14:48:05.106375981Z' > '/home/ubuntu/.vscode-remote/data/Machine/.onCreateCommandMarker'
+[2022-09-25T15:23:15.765Z] userEnvProbe shell: /bin/bash
+[2022-09-25T15:23:15.766Z] Start: Run in container: /bin/bash -lic echo -n 0842ea9f8b6d54bca5ae83b3574bcd2c; cat /proc/self/environ; echo -n 0842ea9f8b6d54bca5ae83b3574bcd2c
+[2022-09-25T15:23:15.779Z] 
+[2022-09-25T15:23:15.779Z] 
+[2022-09-25T15:23:15.780Z] Exit code 1
+[2022-09-25T15:23:15.780Z] Stop (15 ms): Run in container: mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && CONTENT="$(cat '/home/ubuntu/.vscode-remote/data/Machine/.onCreateCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2022-09-25T14:48:05.106375981Z}" != '2022-09-25T14:48:05.106375981Z' ] && echo '2022-09-25T14:48:05.106375981Z' > '/home/ubuntu/.vscode-remote/data/Machine/.onCreateCommandMarker'
+[2022-09-25T15:23:15.781Z] Start: Run in container: mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && CONTENT="$(cat '/home/ubuntu/.vscode-remote/data/Machine/.updateContentCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2022-09-25T14:48:05.106375981Z}" != '2022-09-25T14:48:05.106375981Z' ] && echo '2022-09-25T14:48:05.106375981Z' > '/home/ubuntu/.vscode-remote/data/Machine/.updateContentCommandMarker'
+[2022-09-25T15:23:15.786Z] 
+[2022-09-25T15:23:15.786Z] 
+[2022-09-25T15:23:15.786Z] Exit code 1
+[2022-09-25T15:23:15.786Z] Stop (5 ms): Run in container: mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && CONTENT="$(cat '/home/ubuntu/.vscode-remote/data/Machine/.updateContentCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2022-09-25T14:48:05.106375981Z}" != '2022-09-25T14:48:05.106375981Z' ] && echo '2022-09-25T14:48:05.106375981Z' > '/home/ubuntu/.vscode-remote/data/Machine/.updateContentCommandMarker'
+[2022-09-25T15:23:15.787Z] Start: Run in container: mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && CONTENT="$(cat '/home/ubuntu/.vscode-remote/data/Machine/.postCreateCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2022-09-25T14:48:05.106375981Z}" != '2022-09-25T14:48:05.106375981Z' ] && echo '2022-09-25T14:48:05.106375981Z' > '/home/ubuntu/.vscode-remote/data/Machine/.postCreateCommandMarker'
+[2022-09-25T15:23:15.791Z] 
+[2022-09-25T15:23:15.792Z] 
+[2022-09-25T15:23:15.792Z] Exit code 1
+[2022-09-25T15:23:15.792Z] Stop (5 ms): Run in container: mkdir -p '/home/ubuntu/.vscode-remote/data/Machine' && CONTENT="$(cat '/home/ubuntu/.vscode-remote/data/Machine/.postCreateCommandMarker' 2>/dev/null || echo ENOENT)" && [ "${CONTENT:-2022-09-25T14:48:05.106375981Z}" != '2022-09-25T14:48:05.106375981Z' ] && echo '2022-09-25T14:48:05.106375981Z' > '/home/ubuntu/.vscode-remote/data/Machine/.postCreateCommandMarker'
+[2022-09-25T15:23:15.824Z] Stop (743 ms): Run: /usr/bin/node /usr/lib/node_modules/@microsoft/vscode-dev-containers-cli/dist/spec-node/devContainersSpecCLI.js run-user-commands --user-data-folder /tmp --container-data-folder .vscode-remote/data/Machine --container-system-data-folder /var/vscode-remote --workspace-folder /var/lib/docker/codespacemount/workspace/54014462 --container-id ebe07e94a99b2a4d65a196a2870531dc4bab2e7a96494d4465c3d5c064b4ffe7 --log-level info --log-format json --config /var/lib/docker/codespacemount/workspace/54014462/.devcontainer.json --override-config /root/.codespaces/shared/merged_devcontainer.json --default-user-env-probe loginInteractiveShell --skip-non-blocking-commands false --prebuild false --stop-for-personalization true --mount-workspace-git-root false
